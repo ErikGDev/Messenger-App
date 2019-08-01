@@ -1,0 +1,82 @@
+* {
+  font-size: 2vh;
+}
+
+h1 {
+  font-size: 4vh;
+}
+
+
+.App {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(201,202,204);
+  overflow: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 1vmin);
+  color: white;
+}
+
+.Chat-history {
+  margin-top: 0;
+  height: 68vh;
+  overflow-y: scroll;
+}
+
+.Text-box {
+  background-color: white;
+
+}
+
+.Text-box input {
+  box-sizing: border-box;
+  width: 80%;
+  min-height: 22vh;
+  text-align: left;
+  display: inline;
+  border: none;
+  float: left;
+}
+
+.Text-box input::placeholder {
+  text-align: center;
+}
+
+.message {
+  background-color: #00008B;
+  margin: auto;
+  width: 80%;
+  font-size: 3vw;
+  color: white;
+  border: 1px #00008B solid;
+  border-radius: 0.5vw;
+  list-style-type: none;
+  margin-top: 1vh;
+}
+
+.Text-box button {
+  box-sizing: border-box;
+  display: inline;
+  width: 20%;
+  height: 22vh;
+  float: left;
+  border: none;
+  background-color: grey;
+  transition: background-color 0.5s;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+.Text-box button:hover {
+  background-color: Azure;
+}
